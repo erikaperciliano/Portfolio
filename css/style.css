@@ -47,6 +47,7 @@ p {
 .heading-1 {
   font-family: 'Montserrat', sans-serif;
   font-size: 4rem;
+  color: white;
 }
 @media only screen and (max-width: 37.5em) {
   .heading-1 {
@@ -58,6 +59,7 @@ p {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   font-size: 3rem;
+  color: white;
 }
 @media only screen and (max-width: 37.5em) {
   .heading-2 {
@@ -187,6 +189,14 @@ p {
   transition: all 0.3s;
 }
 .modal__heading {
+  background-color: darksalmon;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.modal__heading_softSkills {
   background-color: darksalmon;
   text-align: center;
   padding: 10px 0;
@@ -348,6 +358,17 @@ body {
   color: #ffffff;
   padding: 20px;
 }
+
+.main-nav__block--softSkills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: darkblue;
+  color: #ffffff;
+  padding: 20px;
+}
+
 .main-nav__block--about {
   background-color: darkred;
 }
@@ -358,9 +379,24 @@ body {
   grid-row: 2;
   background-color: firebrick;
 }
+
+.main-nav__block--softSkills{
+  background-color: darkblue !important;
+}
+.main-nav__block--softSkills:hover,
+.main-nav__block--softSkills:active{
+  background-color:burlywood !important;
+  color: #ffffff;
+}
+
 .main-nav__block--skills {
   grid-column: 2;
 }
+/*.main-nav__block--softSkills {
+  grid-column: 3;
+  background-color: darkblue;
+}*/
+
 .main-nav__block--contact {
   grid-column: 3;
   background-color: darkred;
