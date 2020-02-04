@@ -3,7 +3,7 @@ if( isset($_POST['topic']) && isset($_POST['email']) && isset($_POST['message'])
 	$t = $_POST['topic']; 
 	$e = $_POST['email'];
 	$m = nl2br($_POST['message']);
-	$to = "monika.dembek@gmail.com";	
+	$to = "erikaperciliano.developer@gmail.com";	
 	$from = $e;
 	$subject = 'Portfolio website - message frm contact form';
 	$message = '<b>Topic:</b> '.$t.' <br><b>Email:</b> '.$e.' <p>'.$m.'</p>';
